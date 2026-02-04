@@ -1,7 +1,7 @@
 version: "3.7"
 services:
   victorybandungtours:
-    name: victorybandungtours
+    container_name: victorybandungtours
     image: nginx:latest
     volumes:
       - ./:/usr/share/nginx/html
